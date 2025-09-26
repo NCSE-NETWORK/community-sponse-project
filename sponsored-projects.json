@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "建國高中資訊研究社",
+      "type": "club"
+    },
+    {
+      "name": "北臺灣學生資訊社群",
+      "type": "community",
+      "website": "https://scint.org"
+    },
+    {
+      "name": "開源學習平台",
+      "type": "project",
+      "website": "https://example-learning.com"
+    },
+    {
+      "name": "中山大學AI研究社",
+      "type": "club"
+    },
+    {
+      "name": "綠色科技專案",
+      "type": "project",
+      "website": "https://green-tech-project.org"
+    },
+    {
+      "name": "高雄DevOps社群",
+      "type": "community"
+    }
+  ],
+  "categories": {
+    "club": {
+      "name": "學校社團",
+      "color": "blue",
+      "icon": "academic-cap"
+    },
+    "project": {
+      "name": "專案",
+      "color": "green", 
+      "icon": "globe"
+    },
+    "community": {
+      "name": "技術社群",
+      "color": "purple",
+      "icon": "users"
+    }
+  }
+}
