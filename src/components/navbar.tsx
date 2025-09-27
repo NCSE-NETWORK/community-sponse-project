@@ -16,34 +16,37 @@ export default function Navbar() {
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <a
-              href="#"
+              href="#services"
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
               服務項目
             </a>
             <a
-              href="#"
+              href="#sponsors"
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
               贊助商
             </a>
             <a
-              href="#"
+              href="#projects"
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
               贊助專案
             </a>
             <a
-              href="#"
+              href="#communities"
               className="text-gray-700 hover:text-gray-900 transition-colors"
             >
               合作社群
             </a>
           </div>
           <div className="flex items-center">
-            <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">
+            <a
+              href="#contact"
+              className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
+            >
               聯絡我們
-            </button>
+            </a>
           </div>
         </div>
       </div>

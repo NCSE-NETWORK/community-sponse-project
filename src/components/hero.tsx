@@ -1,4 +1,6 @@
 import { Boxes } from "@/components/ui/background-boxes";
+import Link from "next/link";
+import { config } from "@/lib/config";
 
 export default function Hero() {
   return (
@@ -14,11 +16,28 @@ export default function Hero() {
           共創技術未來
         </h1>
 
-        <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed mb-12">
           NCSE Network
           致力於為學生社團、技術社群以及非營利組織提供免費的雲端基礎設施服務，包括
           VPS、網頁主機、技術支援和 Public IP tunnel，支持組織運作與發展。
         </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Link
+            href="#services"
+            className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+          >
+            探索服務
+          </Link>
+          <Link
+            href={config.applicationFormUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-colors"
+          >
+            立即申請
+          </Link>
+        </div>
       </div>
     </div>
   );
