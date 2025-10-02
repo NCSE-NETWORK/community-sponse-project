@@ -12,14 +12,15 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <Image
                 src="/logo/logo_ncse_network.svg"
-                alt="NCSE Network Logo"
+                alt="NCSE Network Logo - 賦能學生社群，共創技術未來"
                 width={40}
                 height={40}
                 className="h-10 w-auto"
+                loading="lazy"
               />
             </div>
             <p className="text-gray-300 leading-relaxed mb-4 max-w-md">
-              致力於為學生社團、技術社群及非營利組織提供免費的雲端基礎設施服務，推動技術教育發展。
+            專業雲端服務供應商，提供企業級 VPS 主機、機房代管及網路基礎設施解決方案。99% SLA 保證，24/7 技術支援。同時，也關注並提供社群在雲端技術方面的協助。
             </p>
           </div>
 
@@ -28,29 +29,14 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">快速連結</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#services" className="text-gray-300 hover:text-white transition-colors">
-                  服務項目
-                </Link>
-              </li>
-              <li>
-                <Link href="#sponsors" className="text-gray-300 hover:text-white transition-colors">
-                  贊助商
-                </Link>
-              </li>
-              <li>
-                <Link href="#projects" className="text-gray-300 hover:text-white transition-colors">
-                  贊助專案
-                </Link>
-              </li>
-              <li>
-                <Link href="#communities" className="text-gray-300 hover:text-white transition-colors">
-                  合作社群
-                </Link>
-              </li>
-              <li>
-                <Link href="#contact" className="text-gray-300 hover:text-white transition-colors">
-                  聯絡我們
-                </Link>
+                <a 
+                  href="https://ncse.tw" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  NCSE Network
+                </a>
               </li>
             </ul>
           </div>

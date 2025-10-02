@@ -37,7 +37,7 @@ export default function Sponsors() {
           className="mb-12"
         >
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-yellow-600 mb-2">鑽石贊助商</h3>
+            <h3 className="text-2xl font-bold text-blue-600 mb-2">鑽石贊助商</h3>
           </div>
           <div className="flex justify-center">
             <div className="grid grid-cols-1 gap-8 max-w-sm">
@@ -48,15 +48,16 @@ export default function Sponsors() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white rounded-lg p-8 shadow-lg border-2 border-yellow-200 hover:shadow-xl transition-shadow w-full"
+                className="bg-white rounded-lg p-8 shadow-lg border-2 border-blue-300 hover:shadow-xl transition-shadow w-full"
               >
                 <div className="text-center">
                   <div className="w-20 h-20 mx-auto mb-4 relative">
                     <Image
                       src={sponsor.logo}
-                      alt={`${sponsor.name} Logo`}
+                      alt={`${sponsor.name} 贊助商 Logo - ${sponsor.description}`}
                       fill
                       className="object-contain"
+                      loading="lazy"
                     />
                   </div>
                   <h4 className="text-xl font-semibold text-gray-900 mb-2">
@@ -104,9 +105,10 @@ export default function Sponsors() {
                   <div className="w-16 h-16 mx-auto mb-4 relative">
                     <Image
                       src={sponsor.logo}
-                      alt={`${sponsor.name} Logo`}
+                      alt={`${sponsor.name} 贊助商 Logo - ${sponsor.description}`}
                       fill
                       className="object-contain"
+                      loading="lazy"
                     />
                   </div>
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">

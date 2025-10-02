@@ -52,9 +52,10 @@ export default function Communities() {
                   <div className="w-20 h-20 mx-auto mb-6 relative">
                     <Image
                       src={community.logo}
-                      alt={`${community.name} Logo`}
+                      alt={`${community.name} 合作社群 Logo - ${community.description}`}
                       fill
                       className="object-contain"
+                      loading="lazy"
                     />
                   </div>
                   

@@ -2,13 +2,9 @@
 
 import { motion } from "motion/react";
 import { useEffect, useState } from "react";
+import { config } from "@/lib/config";
 
-const statsData = [
-  { label: "社群成員", value: 0, suffix: "" },
-  { label: "年度活動", value: 0, suffix: "" },
-  { label: "合作學校", value: 0, suffix: "" },
-  { label: "贊助專案", value: 0, suffix: "" },
-];
+const statsData = config.stats;
 
 export default function Stats() {
   const [counts, setCounts] = useState(statsData.map(() => 0));

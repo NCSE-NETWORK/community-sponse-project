@@ -13,7 +13,7 @@ const steps = [
   },
   {
     title: "審核評估",
-    description: "我們將評估組織申請，並在 3 個工作天內回覆",
+    description: "我們將評估組織申請，並在 3 ~ 7個工作天內回覆",
     icon: Search,
   },
   {
@@ -38,7 +38,7 @@ export default function Application() {
             申請流程
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            簡單三步驟，輕鬆獲得免費的雲端基礎設施服務
+            簡單三步驟，輕鬆獲得雲端服務支援
           </p>
         </motion.div>
 
