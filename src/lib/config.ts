@@ -233,6 +233,14 @@ export const config = {
     
     // 公開專案
     {
+      name: "SITCON 學生計算機年會",
+      type: "公開專案",
+      description: "SITCON 學生計算機年會，每年春天舉辦，是資訊領域最重要的年度盛事。",
+      website: "https://sitcon.org/",
+      icon: "Code",
+      tag: "公開專案",
+    },
+    {
       name: "emfont",
       type: "公開專案",
       description: "開源字體專案，提供優質的中文字體服務。",
